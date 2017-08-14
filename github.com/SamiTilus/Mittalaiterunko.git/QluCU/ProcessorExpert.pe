@@ -3,7 +3,7 @@
   <Header>
     <Name>QluCU</Name>
     <SavedBy>user</SavedBy>
-    <ModificationStamp>4</ModificationStamp>
+    <ModificationStamp>5</ModificationStamp>
     <Date>2017-08-14</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1550-0615</PEversion>
@@ -2593,14 +2593,14 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>IRC_32kHz</Value>
+        <Value>MCG_FRDIV</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_FRDIVSpeedMode0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>Auto select</Value>
+        <Value>256</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_FLL_MFactorSpeedMode0</ItemSymbol>
@@ -2614,21 +2614,21 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>Auto select</Value>
+        <Value>2</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_VDIVSpeedMode0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>Auto select</Value>
+        <Value>25</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCGOUTSelSpeedMode0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>MCGFLLCLK</Value>
+        <Value>MCGPLLCLK</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>CLKModeNameSpeedMode0</ItemSymbol>
@@ -2745,13 +2745,13 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
+        <Index>4</Index>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCGOUTSelectCLKMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>FLLOUT</EnumSymbVal>
+        <Index>1</Index>
+        <EnumSymbVal>PLLOUT</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCGModeCLKMode0</ItemSymbol>
@@ -2809,7 +2809,7 @@
       <ItemState>
         <ItemSymbol>FLLFixedClkCLKMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>32.768</Value>
+        <Value>31.25</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>FLL_RefClkSrcCLKMode0</ItemSymbol>
@@ -2824,14 +2824,13 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <EnumSymbVal>Auto select</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>FLLRefClkCLKMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>32.768</Value>
+        <Value>31.25</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_FLL_MFactor_CLKMode0</ItemSymbol>
@@ -2881,7 +2880,7 @@
       <ItemState>
         <ItemSymbol>PLLRefClkCLKMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>1</Value>
+        <Value>4</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_VDIV_CLKMode0</ItemSymbol>
@@ -2953,14 +2952,14 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>20.97152</Value>
+        <Value>100</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>OUTDIV2PrescSpeedMode0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>1</Value>
+        <Value>2</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>OUTDIV2Presc_SpeedMode0</ItemSymbol>
@@ -2974,7 +2973,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>20.97152</Value>
+        <Value>50</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>FBClockCondGrp0</ItemSymbol>
@@ -2993,14 +2992,14 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>10.48576</Value>
+        <Value>50</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>OUTDIV4PrescSpeedMode0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>2</Value>
+        <Value>4</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>OUTDIV4Presc_SpeedMode0</ItemSymbol>
@@ -3014,7 +3013,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>10.48576</Value>
+        <Value>25</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PLLFLLCLkSelSpeedMode0</ItemSymbol>
@@ -3029,12 +3028,12 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>MCGFLLCLK</Value>
+        <Value>MCGPLLCLK</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PLLFLLClockSpeedMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>20.97152</Value>
+        <Value>100</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>I2S0_CLKINCondGrp0</ItemSymbol>
@@ -3123,7 +3122,7 @@
       <ItemState>
         <ItemSymbol>USBClockSpeedMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>0</Value>
+        <Value>41.94304</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>StaticCallbacksConfigurations</ItemSymbol>
@@ -22091,48 +22090,40 @@
               <ReadOnly>true</ReadOnly>
               <UserReadOnly>true</UserReadOnly>
               <Value>fsl_lptmr_hal1</Value>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>PeriphDevice</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
               <Value />
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <SharedPrphMode>false</SharedPrphMode>
             </ItemState>
             <ItemState>
               <ItemSymbol>CompVersion</ItemSymbol>
               <Value>1.3.0</Value>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>VersionSpecificItem</ItemSymbol>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <ListItemCount>1</ListItemCount>
             </ItemState>
             <ItemState>
               <ItemSymbol>DefaultMainProperty</ItemSymbol>
               <Value>load sdk verison failed</Value>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
           </Properties>
           <Methods>
             <ItemState>
               <ItemSymbol>SdkSpecificMethods</ItemSymbol>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <ListItemCount>1</ListItemCount>
             </ItemState>
             <ItemState>
               <ItemSymbol>fsl_lptmr_halgroup</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>LPTMR_HAL_Enable</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22142,7 +22133,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_Disable</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22152,7 +22142,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_ClearIntFlag</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22162,7 +22151,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_IsIntPending</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22172,7 +22160,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetIntCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22182,7 +22169,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetTimerWorkingMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22192,7 +22178,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetPrescalerMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22202,7 +22187,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetCompareValue</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22212,7 +22196,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_GetCompareValue</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22222,7 +22205,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_GetCounterValue</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22232,7 +22214,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_Init</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>

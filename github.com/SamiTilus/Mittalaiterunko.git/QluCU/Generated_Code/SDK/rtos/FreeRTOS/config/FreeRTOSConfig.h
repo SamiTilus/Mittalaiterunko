@@ -6,7 +6,7 @@
 **     Version     : Component 8.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-08-14, 10:44, # CodeGen: 5
+**     Date/Time   : 2017-08-14, 11:55, # CodeGen: 8
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -66,8 +66,8 @@
 #define configSYSTICK_USE_LOW_POWER_TIMER        0 /* If using Kinetis Low Power Timer (LPTMR) instead of SysTick timer */
 #define configSYSTICK_LOW_POWER_TIMER_CLOCK_HZ   1 /* 1 kHz LPO timer. Set to 1 if not used */
 
-#define configCPU_CLOCK_HZ                       20971520 /* CPU core clock frequency (in Hz) */
-#define configBUS_CLOCK_HZ                       20971520 /* Bus clock frequency (in Hz) */  
+#define configCPU_CLOCK_HZ                       100000000 /* CPU core clock frequency (in Hz) */
+#define configBUS_CLOCK_HZ                       50000000 /* Bus clock frequency (in Hz) */  
 
 #define configSYSTICK_USE_CORE_CLOCK              1 /* System Tick is using core clock  */
 #define configSYSTICK_CLOCK_DIVIDER               1 /* No divider */
